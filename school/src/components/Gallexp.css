@@ -1,0 +1,32 @@
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-content {
+  display: flex;
+  animation: scroll 40s linear infinite;
+  gap: 2rem;
+}
+
+.marquee-item {
+  flex: 0 0 auto;
+  width: 300px;
+}
+
+.underline {
+  height: 4px;
+  width: 120px;
+  background: linear-gradient(to right, #0d6efd, #d63384);
+  border-radius: 10px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

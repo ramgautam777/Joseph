@@ -1,0 +1,79 @@
+.mission-container {
+  background: linear-gradient(to bottom right, #f0f4ff, #eaf9f4);
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.mission-card {
+  background: linear-gradient(to bottom right, #7fffd4, #add8e6);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.mission-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.icon-wrapper {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px auto;
+  background: linear-gradient(to right, #64c9ff, #6df3c1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: pulse-glow 3s infinite;
+}
+
+.animated-icon {
+  font-size: 40px;
+  color: white;
+  animation: pop-in 1.2s ease forwards;
+}
+
+.fade-in-text {
+  opacity: 0;
+  animation: fadeInUp 1.2s forwards;
+}
+
+.fade-in-text.delay {
+  animation-delay: 0.4s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-glow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(100, 201, 255, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(100, 201, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(100, 201, 255, 0);
+  }
+}
+
+@keyframes pop-in {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,38 @@
+.board-section {
+  background-color: #f5faff;
+}
+
+.board-title {
+  font-weight: 700;
+  font-size: 2rem;
+  position: relative;
+}
+
+.blue-text {
+  color: #0066ff;
+}
+
+.red-text {
+  color: #e60000;
+}
+
+.underline {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(to right, #0066ff, #e60000);
+  border-radius: 4px;
+}
+
+.board-card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.board-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+}

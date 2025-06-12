@@ -1,0 +1,8 @@
+.footer {
+  background: url('../images/footer.jpeg') no-repeat center center;
+  background-size: cover;
+  background-color: #0b1d3a; /* fallback color */
+}
+.footer-copy{
+    font-size: 12px;
+}
