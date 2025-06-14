@@ -6,24 +6,24 @@ import './FAQ.css';
 
 const faqs = [
   {
-    question: 'What does the PCL in General Medicine (HA) program at HVTC focus on?',
-    answer: 'It focuses on developing clinical skills and theoretical knowledge in general medicine, preparing students for primary healthcare delivery.',
+    question: 'What are the admission requirements?',
+    answer: 'We require the student’s previous academic records, birth certificate, passport-size photographs, and completed admission form. For specific grades, an entrance test may also be required.',
   },
   {
-    question: 'What practical experience is included in the PCL in General Medicine (HA) program?',
-    answer: 'Students undergo hospital rotations, community outreach, and supervised clinical practice as part of their training.',
+    question: 'Are extracurricular activities available?',
+    answer: 'Yes. We offer a range of activities such as sports, music, dance, art, yoga, and clubs like Science Club, Literature Club, and Eco Club..',
   },
   {
-    question: 'What career paths can graduates of the PCL in General Medicine (HA) pursue?',
-    answer: 'Graduates can work in hospitals, clinics, public health programs, or pursue further medical education.',
+    question: ' How can parents communicate with teachers?',
+    answer: 'We schedule regular parent-teacher meetings and also provide access to a digital portal where parents can message teachers directly or book appointments.',
   },
   {
-    question: 'What is the main goal of the Diploma in Pharmacy program at HVTC?',
-    answer: 'The program aims to produce skilled pharmacy professionals capable of managing drug stores, preparing medications, and ensuring proper drug use.',
+    question: 'Are there any scholarships or discounts?',
+    answer: 'Yes, scholarships are offered based on merit, need, and extracurricular performance. Please contact the office for eligibility.',
   },
   {
-    question: 'What practical training is included in the Diploma in Pharmacy program?',
-    answer: 'It includes internships in pharmacies, hands-on drug dispensing, compounding exercises, and industry visits.',
+    question: 'Does the school have a library and computer lab?',
+    answer: 'Yes, our school includes a well-stocked library and modern computer lab accessible to all students.',
   },
 ];
 

@@ -11,37 +11,29 @@ const HVTCFeatures = () => {
         <Row className="align-items-start">
           {/* Text Section */}
           <Col md={6}>
-            <h2 className="fw-bold mb-3 text-blue">Empower Your Career with STJEA</h2>
-            <p className="text-muted mb-4">
-              At Holy Vision Technical Campus, we provide comprehensive technical
+            <h2 className="fw-bold mb-3 text-blue">Empower Your Career with St. Joseph English Academy</h2>
+            <p className="text-muted mb-4" style={{textAlign:'justify'}}>
+              At St. Joseph English Academy School, we provide comprehensive 
               education with personalized support for your academic and professional growth.
             </p>
             <ListGroup variant="flush">
               <ListGroup.Item className="border-0 ps-0">
                 <span className="text-success fw-bold">•</span>{' '}
-                <strong>Diverse Technical Programs:</strong> Including Nursing, General Medicine,
-                Pharmacy, and Caregiver Program.
+                <strong>CHILD FRIENDLY CLASSROOM:</strong><p style={{textAlign:'justify'}}> Cozy and well furnished classrooms which help to foster children learning activities, amicable environment and accommodate children comfortably.</p>
               </ListGroup.Item>
               <ListGroup.Item className="border-0 ps-0">
                 <span className="text-success fw-bold">•</span>{' '}
-                <strong>Modern Infrastructure:</strong> Labs, libraries, simulation rooms, and digital resources.
+                <strong>MULTI ACTIVITIES</strong><p style={{textAlign:'justify'}}>Children are encouraged to pursue their own talent while some children may be independently busy in practical works.</p>
               </ListGroup.Item>
               <ListGroup.Item className="border-0 ps-0">
                 <span className="text-success fw-bold">•</span>{' '}
-                <strong>Experienced Faculty:</strong> Qualified instructors with clinical and industrial expertise.
+                <strong>FREEDOM TO LEARN</strong> <p style={{textAlign:'justify'}}>Children will be given chance to explore the activities they want the most and spents as much as time on that activities to froster self discipline as well as empower themselves for solving problems, skills and enhance them for life long learning. </p>
               </ListGroup.Item>
               <ListGroup.Item className="border-0 ps-0">
                 <span className="text-success fw-bold">•</span>{' '}
-                <strong>Internship Opportunities:</strong> Placements in hospitals, health centers, and pharmacies.
-              </ListGroup.Item>
-              <ListGroup.Item className="border-0 ps-0">
-                <span className="text-success fw-bold">•</span>{' '}
-                <strong>Career Counseling:</strong> Guidance for job readiness and further education.
-              </ListGroup.Item>
-              <ListGroup.Item className="border-0 ps-0">
-                <span className="text-success fw-bold">•</span>{' '}
-                <strong>CTEVT Affiliation:</strong> Recognized diplomas with nationwide value.
-              </ListGroup.Item>
+                <strong>CARING, COMPASSIONATE COMMUNITY</strong><p style={{textAlign:'justify'}}>In a supportive & collaborative classroom environment, children learn, self awareness, self-discipline, as well as kindness and respect for others. Developing the emotional and social well being for children is just as important as intellectual and academic development.</p>
+              </ListGroup.Item> 
+              
             </ListGroup>
           </Col>
 

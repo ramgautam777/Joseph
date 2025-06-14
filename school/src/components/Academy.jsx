@@ -7,7 +7,7 @@ const Academy = () => {
   return (
     <div className="bg-light text-dark">
       {/* Header */}
-      <div className="text-center bg-info text-white py-4">
+      <div className="text-center  text-blue py-4 ">
         <h1 className="fw-bold">About St.Joseph English School</h1>
       </div>
 
@@ -54,21 +54,14 @@ const Academy = () => {
           <Col md={7}>
             <Card className="shadow-sm">
               <Card.Body>
-                <h2 className="fw-bold text-info mb-4">Welcome to St.joseph English Academy</h2>
-                <p>
-                  St. Joseph English Academy School was founded with a mission to produce skilled middle-level health professionals ready for immediate employment, especially in rural areas. The institution emphasizes comprehensive healthcare training—covering preventive, promotive, curative, managerial, and rehabilitative care.
+                <h2 className="fw-bold text-blue mb-4">Welcome to St.joseph English Academy</h2>
+                <p style={{textAlign:'justify'}}>
+                  St. Joseph English Academy School was founded with a mission to produce skilled middle-level health professionals ready for immediate employment, especially in rural areas. The School emphasizes comprehensive healthcare training—covering preventive, promotive, curative, managerial, and rehabilitative care.
                 </p>
-                <p>
-                  Over the years, SJEA has maintained a strong track record of academic excellence, with many graduates achieving distinction and first division marks, going on to serve in both local and international healthcare settings.
-                </p>
-                <p>
-                  HVTC offers a range of CTEVT-affiliated and nationally recognized programs, including the Proficiency Certificate Level in Nursing (since 2002), General Medicine (Health Assistant, since 2003), Diploma in Pharmacy (since 2004), and the newly launched Caregiver Program. These programs are approved by regulatory bodies such as the Nepal Nursing Council, Nepal Health Professional Council, and Nepal Pharmacy Council, and are recognized by Tribhuvan University.
-                </p>
-                <p>
-                  The institution takes pride in its experienced faculty, strong pass rates, hands-on practical training, and career-focused education designed to meet the growing needs of the healthcare sector.
-                </p>
-                <p>
-                  To support inclusive education and academic excellence, HVTC offers scholarships to deserving students. Three scholarships are awarded annually to students from Category 3, as designated by CTEVT, to promote diversity and support underrepresented backgrounds. Additionally, a merit-based scholarship is granted each year to recognize outstanding academic performance. Through these initiatives, HVTC reinforces its commitment to accessible, high-quality healthcare education and the development of compassionate, competent professionals.
+                
+                
+                <p style={{textAlign:'justify'}}>
+                  To support inclusive education and academic excellence, SJEA offers scholarships to deserving students. Three scholarships are awarded annually to students from Category 3, as designated by Board, to promote diversity and support underrepresented backgrounds. Additionally, a merit-based scholarship is granted each year to recognize outstanding academic performance. Through these initiatives, SJEA reinforces its commitment to accessible, high-quality healthcare education and the development of compassionate, competent professionals.
                 </p>
               </Card.Body>
             </Card>

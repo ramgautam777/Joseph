@@ -6,7 +6,7 @@
 
 .marquee-content {
   display: flex;
-  animation: scroll 40s linear infinite;
+  animation: scroll 5s linear infinite;
   gap: 2rem;
 }
 
