@@ -1,6 +1,7 @@
 import React from 'react';
-import './Gallexp.css'; // Custom CSS for animation
+import './Gallexp.css';
 import { Container } from 'react-bootstrap';
+
 import Out1 from '../images/out1.jpg';
 import Out2 from '../images/out2.jpg';
 import Out3 from '../images/out3.jpg';
@@ -16,23 +17,31 @@ import Stparent from '../images/stparent.jpg';
 import Teacher from '../images/teacher.jpg';
 import Tmeet from '../images/tmeet.jpg';
 
-const images = [Out1, Out2, Out3,Out4,Out5,Out6,Out7,Out8,Out9,Out10,Out11,Stparent,Teacher,Tmeet
-  
+const images = [
+  Out1, Out2, Out3, Out4, Out5, Out6, Out7,
+  Out8, Out9, Out10, Out11, Stparent, Teacher, Tmeet,
 ];
 
 const GalleryCarousel = () => {
+  const repeatedImages = [...images, ...images]; // duplicate for smooth scroll
+
   return (
-    <section className="py-5 bg-white">
+    <section className="py-5 bg-black">
       <h2 className="text-center fw-bold mb-4">
-        <span className="text-primary">Explore</span> <span className="text-danger">Gallery</span>
+        <span className="text-primary">Explore</span>{' '}
+        <span className="text-danger">Gallery</span>
         <div className="underline mx-auto mt-2"></div>
       </h2>
       <Container fluid className="overflow-hidden">
         <div className="marquee">
           <div className="marquee-content">
-            {images.map((src, idx) => (
+            {repeatedImages.map((src, idx) => (
               <div className="marquee-item" key={idx}>
-                <img src={src} alt={`Gallery ${idx}`} className="img-fluid rounded shadow" />
+                <img
+                  src={src}
+                  alt={`Gallery ${idx}`}
+                  className="img-fluid rounded shadow"
+                />
               </div>
             ))}
           </div>

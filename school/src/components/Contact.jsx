@@ -107,7 +107,7 @@ function Contact() {
                     St. Joseph English Academy provides a safe, inclusive, and inspiring learning environment. We encourage academic excellence, creativity, and personal growth.
                   </p>
                   <p style={{ fontSize: '1.1rem', textAlign: 'justify' }}>
-                    Our state-of-the-art simulation labs and expert-led courses ensure a top-tier academic environment tailored for future professionals.
+                    Our state-of-the-art simulation labs and expert-led courses ensure a top-tier academic environment tailored for future professionals & St.Joseph's montessori is the best school for learning by doing as well as cultivates healthy behaviour of the kids.
                   </p>
                 </motion.div>
               </Col>
