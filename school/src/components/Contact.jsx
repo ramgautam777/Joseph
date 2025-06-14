@@ -30,7 +30,7 @@ function Contact() {
           <span style={{ color: 'blue', fontWeight: 'bold' }}>Find </span>
           <span style={{ color: 'red', fontWeight: 'bold' }}>Us on the Map</span>
         </h2>
-        <p className="text-center fs-5 mt-3" style={{ textAlign: 'justify' }}>
+        <p className="text-jusitify text-center fs-10 mt-3" >
           St.Joseph English Academy School is located in the heart of Kathmandu. Click the map below to view our exact location on Google Maps and get directions to visit our campus.
         </p>
       </motion.div>
@@ -102,7 +102,7 @@ function Contact() {
               {/* Info Text */}
               <Col xs={12} lg={6}>
                 <motion.div className="h-100" variants={fadeInUp}>
-                  <h2 className="fw-bold mb-3">St. Joseph English Academy School</h2>
+                  <h2 className="fw-bold text-center mb-3">St. Joseph English Academy School</h2>
                   <p style={{ fontSize: '1.1rem', textAlign: 'justify' }}>
                     St. Joseph English Academy provides a safe, inclusive, and inspiring learning environment. We encourage academic excellence, creativity, and personal growth.
                   </p>

@@ -15,7 +15,10 @@ import Contact from './Contact';
 function Home() {
   return (
     <Container className="text-center " >
-      <h1 className="mb-4">Welcome to St. Joseph's English Academy</h1>
+      <h2 className="course-title">
+          <span className="text-blue animate-left">Welcome To</span>{' '}
+          <span className="text-red animate-right">St. Joseph English Academy</span>
+        </h2>
       <p className="lead mb-4">Empowering students for a bright future!</p>
 
       <Carousel className="mb-4">
