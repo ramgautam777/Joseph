@@ -26,7 +26,7 @@ function CustomNavbar() {
         <Navbar.Brand as={NavLink} to="/">
           <img
             src={Logo}
-            alt="Holy Vision Technical Campus"
+            alt="St. Joseph English Academy"
             style={{ height: '60px', objectFit: 'contain' }}
           />
         </Navbar.Brand>
@@ -69,7 +69,7 @@ function CustomNavbar() {
             <Offcanvas.Title>
               <img
                 src={Logo}
-                alt="Holy Vision Technical Campus"
+                alt="St. Joseph English Academy"
                 style={{ height: '50px', objectFit: 'contain' }}
               />
             </Offcanvas.Title>

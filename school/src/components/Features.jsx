@@ -3,6 +3,7 @@ import { Container, Row, Col, Image, ListGroup } from 'react-bootstrap';
 import './Features.css'; // Import custom CSS
 import Feature1 from '../images/feature1.jpg';
 import Feature2 from '../images/feature2.png';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const HVTCFeatures = () => {
   return (
@@ -44,7 +45,7 @@ const HVTCFeatures = () => {
                 <div className="image-wrapper">
                   <Image
                     src={Feature1}
-                    alt="HVTC students"
+                    alt="STJEA students"
                     className="animated-image"
                     fluid
                   />
@@ -66,22 +67,15 @@ const HVTCFeatures = () => {
       </Container>
 
       {/* Floating Call Button */}
-      <a
-        href="tel:+9779800000000"
-        className="position-fixed"
-        style={{
-          bottom: '20px',
-          right: '20px',
-          backgroundColor: '#25d366',
-          color: 'white',
-          borderRadius: '50%',
-          padding: '15px',
-          boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-          zIndex: 1050,
-        }}
+       <a
+        href="https://wa.me/9779812345678" // change to your number
+        target="_blank"
+        rel="noopener noreferrer"
+        className="whatsapp-float"
       >
-        <i className="bi bi-telephone-fill fs-4"></i>
+        <FaWhatsapp size={48} color="#25D366" />
       </a>
+
     </div>
   );
 };

@@ -3,13 +3,13 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 import './SchoolMember.css';
 
 const boardMembers = [
-  { name: 'Dipak Chandra Baral', title: 'Chairman, ' },
-  { name: 'Dr. Tulshi Das Shrestha', title: 'Executive Director' },
-  { name: 'Dr. Soni Mahato', title: 'Executive Director' },
-  { name: 'Dr. Moni Mahto', title: 'Board Member' },
-  { name: 'Dr. Sumintra Nakarmi', title: 'Board Member' },
-  { name: 'Mrs. Amrita Mahaseth', title: 'Board Member' },
-  { name: 'Mrs. Urmila Bhattrai Baral', title: 'Board Member' },
+  { name: 'loremmm', title: 'Principal, ' },
+  { name: 'loremmmm', title: 'Vice-Principal' },
+  { name: 'loremmmm', title: 'co-ordinator' },
+  { name: 'loremmmm', title: 'Accountant' },
+  { name: 'loremmmmm', title: 'Teacher' },
+  { name: 'loremmmm', title: 'Teacher' },
+  { name: 'loremmmm', title: 'Teacher' },
 ];
 
 const SchoolMember = () => {

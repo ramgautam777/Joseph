@@ -1,41 +1,22 @@
 
 
-.hero-section {
-  height: 100vh;
-  background: url('../images/sclbanner.jpg') center center / cover no-repeat;
-  position: relative;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+.carousel-img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
   
 }
-
-.navbar-custom {
-  background: rgba(0, 0, 0, 0.5) !important;
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 250px;
+  }
 }
 
-.hero-text {
-  position: relative;
-  z-index: 1;
-  max-width: 800px;
-  padding: 2rem;
-}
 
-.hero-text h1 {
-  font-size: 3rem;
-  font-weight: bold;
-}
 
-.hero-text p {
-  font-size: 1.5rem;
-  margin-top: 1rem;
-}
 
-.icon {
-  width: 28px;
-  height: 28px;
-  margin-left: 10px;
-}
+
+
+
+
 

@@ -13,7 +13,7 @@ const Facilities = () => {
               <p className="course-subtext fade-in-delay">Your academic goals are waiting to be achieved</p>
 
               <h2 className="text-success   animate-left ">
-                  <ul style={{textAlign:'justify'}}>
+                  <ul style={{textAlign:'justify', fontSize:'1.5rem', fontFamily:' "Montserrat", sans-serif', fontWeight:'normal' }}>
                       <li>Having suffiecient area of  Play Ground  for sports</li>
                       <li>Multiple Buses are Available for  School Bus Service </li>
                       <li> Class Programs are also arranged in St.joseph Academy</li>
